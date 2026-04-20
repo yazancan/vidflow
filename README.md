@@ -1,18 +1,22 @@
-![Imagem de capa do curso. O título é "3519 - Node.js e terminal" e o subtítulo é "Dominando o ambiente de desenvolvimento front-end".](./thumb.png)
+# 🎬 VidFlow
 
-# VidFlow
+![alt text](preview-vidflow.png)
 
-O VidFlow é uma plataforma de compartilhamento de vídeos.
+Projeto desenvolvido durante os cursos da Alura com foco em:
 
-![Captura de tela do Vidflow.](./vidflow.png)
+- Consumo de APIs
+- Manipulação de dados com JavaScript
+- Uso do Vite como ambiente de desenvolvimento
+- Integração com API local (json-server)
+- Uso de variáveis de ambiente (.env)
 
-## 🔨 Funcionalidades do projeto
+## 🚀 Funcionalidades
 
-Atualmente, o visual do projeto e sua funcionalidade de buscar em uma API pelas informações dos vídeos já estão prontos.
-
-Agora, o time de desenvolvimento do VidFlow decidiu aplicar o uso de novas ferramentas que irão melhorar a qualidade do código do projeto, como o ESLint, Prettier, Axios e o Vite.
-
-Para isso, aprenderemos a utilizar o **Node.js**, necessário para aplicar todas essas ferramentas.
+- Listagem de vídeos a partir de uma API
+- Renderização dinâmica no DOM
+- Filtro por categorias
+- Consumo de dados via Axios
+- Alternância entre ambiente local e produção
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
@@ -21,7 +25,7 @@ Para isso, aprenderemos a utilizar o **Node.js**, necessário para aplicar todas
 - Os pacotes ESLint, Prettier, JSON Server, Axios e Vite
 - Vercel
 
-## Link do Figma
+## 🎨 Link do Figma
 
 [Acesse o Figma do Vidflow](https://www.figma.com/file/a0crwitCtGmNIQW0RVIs5H/VidFlow-%7C-Curso-Js---Consumindo-dados-de-uma-API?node-id=0%3A1&mode=dev).
 
@@ -43,6 +47,10 @@ json-server --watch backend/videos.json
 
 Em seguida, abra o `index.html` no navegador e o VidFlow já pode ser visualizado!
 
-## 📚 Mais informações do curso
+## 🔗 Deploy
 
-Este repositório avança até o uso do ESLint e Prettier, mas ainda não está utilizando o Vite junto com o Axios. Para usar o Vite, foi necessário a migração do código para um novo projeto, que você encontra [nesse repositório](https://github.com/alura-cursos/3519-nodejs-vidflow-vite).
+https://vidflow-vite-beta.vercel.app/
+
+## 💡 Observações
+
+Este projeto foi desenvolvido com fins educacionais durante os cursos da Alura.
